@@ -1,24 +1,23 @@
 package oop2;
 
-public class StudentTester {
+public class StudentTester_cara1 {
     //nama ibjectnya s s1 s2
-
     public static void main(String[] args) {
         //nama class nama object = new nama_constructor
-        Student s = new Student(); //object
+        Student_cara1 s = new Student_cara1(); //object
         //false=cowo, true=cewe
         s.ssn = 100;
         s.name = "atika";
         s.gpa = 3.5;
         s.gen = true; 
         
-        Student s1 = new Student();
+        Student_cara1 s1 = new Student_cara1();
         s1.ssn = 101;
         s1.name = "jackson";
         s1.gpa = 2.7;
         s1.gen = false; 
 
-        Student s2 = new Student();
+        Student_cara1 s2 = new Student_cara1();
         s2.ssn = 102;
         s2.name = "dita";
         s2.gpa = 2.1;
@@ -38,20 +37,5 @@ public class StudentTester {
         System.out.println(s2.name);
         System.out.println(s2.gpa);
         System.out.println(s2.gen);
-
-
-        
-    //kalo pake private dan encapsulation field private
-    // public static void main(String[] args) {
-    //     Student s = new Student();
-    //     s.setSsn(100);
-    //     s.setName("atika"); //nama method setname, kirim ke file student
-    //     s.setGpa(3.5); 
-    //     s.setGen(true);
-
-    //     System.out.println(s.getSsn());
-    //     System.out.println(s.getName());
-    //     System.out.println(s.getGpa());
-    //     System.out.println(s.isGen()); //khusus booelan tipe-datanya pake is
     }
 }

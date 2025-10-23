@@ -6,11 +6,9 @@ public class primitive {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-
+        Scanner scanner = new Scanner(System.in); //declare scanner
         System.out.print("Masukkan umur Anda: ");
-        int umur = scanner.nextInt();
-
+        int umur = scanner.nextInt(); //baca inputan umur
         boolean Dewasa;
 
         if (umur >= 17) {

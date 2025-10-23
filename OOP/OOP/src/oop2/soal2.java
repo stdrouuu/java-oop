@@ -36,14 +36,8 @@ public class soal2 {
             } else if (wavelength >= 621 && wavelength <= 750) {
                 color = "Red";
                 System.out.println("The color is " + color);
-
-            } else {
-                color = null; 
-            }
-            // if (color != null) {
-            //     System.out.println("The color is " + color);
-            // } 
-            
+            } 
+        
         } else {
             System.out.println("The entered wavelength is not a part of the visible spectrum.");
         }
@@ -51,3 +45,16 @@ public class soal2 {
         scanner.close();
     }
 }
+
+//contoh input 
+//Enter a color code:
+//630
+// The color is Red
+
+//Enter a color code:
+//25.0
+//The entered wavelength is not a part of the visible spectrum.
+
+//Enter a color code:
+//750.5
+//The entered wavelength is not a part of the visible spectrum.
